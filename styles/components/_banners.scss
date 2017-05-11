@@ -1,0 +1,16 @@
+// Banners //
+
+.walkthrough-banner {
+  padding-left: px-to-rems(40);
+  padding-right: px-to-rems(40);
+  padding-top: px-to-rems(60);
+  margin-bottom: px-to-rems(20);
+  height: px-to-rems(300);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & h3, h4 {
+    margin-bottom: px-to-rems(10);
+  }
+}

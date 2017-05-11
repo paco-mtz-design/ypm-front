@@ -1,0 +1,20 @@
+//############################################//
+//################ Custom Styles ##############//
+//###########################################//
+
+/* Home */
+
+.intro-block {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+
+	&__header {
+		height: 100vh;
+
+		span {
+			color: #FF1BA7;
+		}
+	}
+}

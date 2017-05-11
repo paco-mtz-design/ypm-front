@@ -1,0 +1,87 @@
+//Class Cards
+
+.card-holder {
+
+  margin-bottom: 60px;
+
+  .class-card {
+    padding-left: px-to-rems(10);
+    padding-right: px-to-rems(10);
+    padding-bottom: px-to-rems(20);
+
+    &__inner {
+      background-color: white;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+      border-radius: 5px;
+
+      &:hover {box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);}
+
+    }
+
+    &__image {
+      height: px-to-rems(150);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: px-to-rems(20);
+
+      &.program {
+        height: px-to-rems(240) !important;
+      }
+    }
+
+    &__title {
+      height: px-to-rems(60);
+      margin-bottom: px-to-rems(20);
+      padding: 0 10px;
+      font-size: px-to-rems(18);
+    }
+
+    &__info {
+      padding: 15px 10px;
+      overflow: auto;
+      & .yoga-type {color: $action-color;}
+      & .yogi-pic {
+        height: px-to-rems(35);
+        width: px-to-rems(35);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: px-to-rems(10);
+        border-radius: px-to-rems(20);
+      }
+    }
+
+    &__meta {
+      border-top: 1px solid $border-gray;
+      & small {
+        display: inline-block;
+        padding: 15px 0;
+        width: 49%;
+        &:first-child {
+          border-right: 1px solid $border-gray;
+        }
+        & span {
+          background-repeat: no-repeat;
+          background-position: left center;
+          display: inline-block;
+          margin-right: 5px;
+          text-indent: -1000px;
+          height: 16px;
+          width: 16px;
+        }
+        &.class-time span {
+          background-image: url('../imgs/time-small-icon.svg');
+        }
+        &.yoga-type span {
+          background-image: url('../imgs/level-small-icon.svg');
+        }
+        &.classes-no span {
+          background-image: url('../imgs/classes-no-small-icon.svg');
+        }
+      }
+    }
+
+  }
+
+}

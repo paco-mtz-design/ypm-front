@@ -1,0 +1,30 @@
+//Buttons
+.button {
+  background-color: $action-color;
+  border-radius: px-to-rems(20);
+  padding: px-to-rems(10);
+}
+
+.button-large {
+  border-radius: px-to-rems(30);
+  padding: px-to-rems(15);
+  width: auto;
+
+  &__blue {
+    background-color: #46ACFF;
+  }
+
+  &__white {
+    background-color: white;
+  }
+
+  &__outline {
+    background-color: white;
+    border:1px solid #46ACFF;
+   }
+
+  &:hover {
+    padding-left: px-to-rems(30);
+    padding-right: px-to-rems(30);
+  }
+}

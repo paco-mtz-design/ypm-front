@@ -1,0 +1,28 @@
+//############################################//
+//################ Header ##############//
+//###########################################//
+
+.main-header {
+	padding: px-to-rems(20) 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+	&__nav {
+		font-size: px-to-ems(15);
+
+		a + a {
+			margin-left: px-to-rems(30);
+		}
+
+		a:hover {
+			color: red;
+		}
+	}
+
+	.button {
+		&:hover {
+			color: #FFF;
+		}
+	}
+}

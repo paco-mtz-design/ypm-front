@@ -1,0 +1,29 @@
+//############################################//
+//################ Typography ##############//
+//###########################################//
+
+html {
+  font-size: 14px;
+  font-family: 'Muli', sans-serif;
+  @media (min-width: 800px) {
+    font-size: 16px;
+  }
+  @media (min-width: 1300px) {
+    font-size: 18px;
+  }
+}
+
+h1 { font-size: 4em; } // 64 ÷ 16 = 4
+h2 { font-size: 3em;} // 48 ÷ 16 = 3
+h3 { font-size: 2em; } // 32 ÷ 16 = 2
+h4 { font-size: 1.5em; } // 24 ÷ 16 = 1.5
+small { font-size: 0.875em; } // 14 ÷ 16 = 0.875
+
+p {
+  margin-bottom: 20px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 200;
+  margin-bottom: 40px;
+}
