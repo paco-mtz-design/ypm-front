@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="16px" viewBox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_accessibility</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Paginas-Clave" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Home" transform="translate(-211.000000, -1679.000000)" fill="#836DDB">
+            <g id="Clases-Recomendadas" transform="translate(0.000000, 1195.000000)">
+                <g id="Row" transform="translate(47.000000, 161.000000)">
+                    <g id="Group-4-Copy">
+                        <g id="Group-3" transform="translate(164.000000, 323.000000)">
+                            <g id="ic_accessibility">
+                                <path d="M7.2,0 C8.08,0 8.8,0.72 8.8,1.6 C8.8,2.48 8.08,3.2 7.2,3.2 C6.32,3.2 5.6,2.48 5.6,1.6 C5.6,0.72 6.32,0 7.2,0 L7.2,0 Z M14.4,5.6 L9.6,5.6 L9.6,16 L8,16 L8,11.2 L6.4,11.2 L6.4,16 L4.8,16 L4.8,5.6 L0,5.6 L0,4 L14.4,4 L14.4,5.6 L14.4,5.6 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
